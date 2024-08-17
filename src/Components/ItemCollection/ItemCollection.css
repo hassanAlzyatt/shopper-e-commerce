@@ -1,0 +1,24 @@
+.Item-Collection-class{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    padding:3%;
+    margin-top: 5%;
+}
+#collection-title{
+    color: red;
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+}
+
+
+@media screen and  (max-width:500px){
+    .Item-Collection-class{
+        flex-direction: column;
+    }
+}
+

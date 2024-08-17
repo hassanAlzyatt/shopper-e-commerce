@@ -1,0 +1,46 @@
+.hero-class{
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(180deg, #fde1ff, #0e8b3322 60%);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:5%;
+    margin-bottom: 10%;
+  align-items: center;
+}
+.hero-text button{
+    background-color:#ff4141;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    color: white;
+    font-size: 25px;
+}
+.hero-text{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 30%;
+}
+.hero-img img{
+    height: 450px;
+    cursor: pointer;
+}
+@media screen  and (max-width:1200px){
+    .hero-img img{
+
+        height: 300px;
+    }
+    .hero-text{
+        padding: 20px;
+    
+      
+       
+        width: 50%;
+    }
+
+}

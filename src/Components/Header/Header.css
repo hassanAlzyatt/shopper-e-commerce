@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    height: 100vh;
+}
+.header-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    gap: 200px;
+    box-shadow: 0px 6px 10px -1px rgba(0,0,0,0.1);
+}
+#list-icon{
+   
+   display: none;
+
+}
+.logo-clas{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   
+    
+}
+.navbar-class ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    font-size: 25px;
+
+}
+.navbar-class ul a{
+    text-decoration: none;
+    color: black;
+}
+.login-cart-class{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+.login-cart-class button{
+    padding: 10px 50px;
+    border: 1px solid rgb(197, 194, 194);
+    
+    background-color: white;
+    border-radius: 50px;
+}
+.hr{
+    width:80%;
+    height: 2px;
+    color: red;
+    background-color: red;
+    border: none;
+}
+#numOfItems-class{
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    left: 170px;
+    bottom: 11px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+  
+}
+#x-icon-class{
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    width: fit-content;
+    background-color: rgb(212, 207, 207);
+   
+}
+
+@media screen  and (max-width:1200px){
+    
+    #list-icon{
+        display: block;
+        font-size: 25px;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        box-shadow: 0px 6px 10px -1px rgba(0,0,0,0.1);
+        padding: 10px;
+    }
+    
+.header-class{
+
+    margin: auto;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: left;
+   z-index: 20;
+   height: fit-content;
+    width: 100%;
+    gap:20px;
+   background-color: white;
+}
+.navbar-class ul{
+  
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    list-style: none;
+    gap: 30px;
+    font-size: 25px;
+
+}
+
+.login-cart-class{
+    flex-direction: column;
+
+}
+#numOfItems-class{
+   
+    left: 120px;
+    bottom: 80px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}
+    
+}
